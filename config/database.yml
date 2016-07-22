@@ -1,0 +1,15 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: janusdb
+  username: root
+  password: A71197391a
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: ###IP_PRODUCAO###
+  username: ###USUARIO_PRODUCAO###
+  password: ###SENHA_PRODUCAO###
+  host: mysqlapps.sti.uff.br
+
